@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+DE+SAS:wght@100..400&display=swap");
+body {
+  background-color: lightpink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Playwrite DE SAS", cursive;
+}
+
+.content {
+  border: 2px solid white;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.content .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 30px;
+  padding-left: 40px;
+  margin-bottom: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.content .row input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+.content .row button {
+  border: none;
+  outline: none;
+  background: white;
+  padding: 15px 40px;
+  border-radius: 40px;
+}
+.content ul li {
+  list-style: none;
+  padding: 12px 150px 12px 12px;
+  user-select: none;
+  cursor: pointer;
+  position: relative;
+}
+.content ul li::before {
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  border: 1px solid black;
+  border-radius: 50%;
+  top: 15px;
+  left: -25px;
+}
+.content ul li.checked {
+  color: #555;
+  text-decoration: line-through;
+}
+.content ul li.checked::before {
+  background-image: url(/assets/checked.png);
+  background-size: cover;
+  background-position: center;
+}
+.content ul li span {
+  position: absolute;
+  right: 0;
+  top: 5px;
+  width: 30px;
+  height: 30px;
+  font-size: 22px;
+  color: black;
+  line-height: 40px;
+  text-align: center;
+}
+.content ul li span:hover {
+  width: 35px;
+  height: 35px;
+}
+
+/*# sourceMappingURL=style.css.map */
