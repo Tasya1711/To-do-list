@@ -4,6 +4,10 @@ A simple task manager built with **HTML**, **SCSS**, and **JavaScript** — add,
 This is a small web application that helps you organize your daily tasks.
 You can **add**, **mark as completed**, or **delete tasks** — and everything is automatically saved in your browser’s localStorage, so your to-do list stays intact even after reloading the page.  
 This project was created as a practice project to strengthen skills in front-end development, DOM manipulation, and SCSS styling.
+# Technologies Used
+* HTML
+* CSS
+* Java Script
 # Screenshot  
 <p align="center">
   <img src="To-do-list.png" alt="To-Do List Screenshot" width="300">
