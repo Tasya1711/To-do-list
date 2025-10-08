@@ -11,8 +11,10 @@ This project was created as a practice project to strengthen skills in front-end
 
 # Installation for Users
 You don’t need to install anything — the app is available online!  
+
 **Visit the live site here:**  
-https://tasya1711.github.io/To-do-list/
+https://tasya1711.github.io/To-do-list/  
+
 All tasks are saved automatically in your browser’s localStorage, so you can safely close or refresh the page without losing them.
 # Installation for Developers
 If you’d like to explore or improve the code locally:  
